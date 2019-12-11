@@ -6,17 +6,6 @@ public class Temperature {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		        //String fileName = "/sys/class/thermal/thermal_zone0/temp";
-		       // String line = null;
-				/*
-
-		           FileReader filename = new FileReader("C:/Users/Noémie/Desktop/Note");
-		        
-		        catch(FileNotFoundException e)
-		        {
-		        	//if the file it doesn't exist
-		        }
-		        */
 		        
 		        FileReader filereader = null;
 		        BufferedReader bufferedreader = null;
