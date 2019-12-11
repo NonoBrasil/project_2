@@ -10,7 +10,7 @@ public class Temperature {
 		       // String line = null;
 				/*
 
-		           FileReader filename = new FileReader("C:/Users/Noémie/Desktop/Note");
+		           FileReader filename = new FileReader("C:/Users/NoÃ©mie/Desktop/Note");
 		        
 		        catch(FileNotFoundException e)
 		        {
@@ -21,7 +21,7 @@ public class Temperature {
 		        FileReader filereader = null;
 		        BufferedReader bufferedreader = null;
 		        try {
-		            filereader = new FileReader("C:\\Users\\Noémie\\Documents\\ING3\\Semestre 1\\Projet_2\\Fichier.txt");
+		            filereader = new FileReader("sys/class/thermal/thermal_zone0/temp.txt");
 		            bufferedreader = new BufferedReader(filereader);
 		            String strCurrentLine;
 		            while ((strCurrentLine = bufferedreader.readLine()) != null) {
